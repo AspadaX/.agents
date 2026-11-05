@@ -17,4 +17,4 @@ allowed-tools: Read
 - When creating diagrams, you should place relevant nodes together and leave enough spacing between nodes.
   - If you there are certain parts on the diagram is too dense, you should reconsider your placement.
 - Review your diagram on completion and then fix the issues.
-  - You should also review it visually.
+  - You should also review it visually using `MermaidCLI`. Never skip this.
