@@ -15,6 +15,7 @@ description: Use this when the user wants to create a software architect diagram
 ## Rules
 - Find the entry point of the codebase first. If the user had provided one, use that instead.
 - Output a mermaid script.
+  - DO NOT include those in your mermaid script: font overrides, custom colors, br, etc. It is because you can't predict which renderer will the user use. So leave your script clean.
 - The nodes on the diagram should be derived from the codebase's real structs, classes, modules, functions, constants, and so on.
   - Be object oriented when creating a diagram.
   - Never use concepts you created for the nodes.
