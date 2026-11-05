@@ -1,7 +1,6 @@
 ---
 name: create-architect-diagram
 description: Use this when the user wants to create a software architect diagram.
-allowed-tools: Read
 ---
 
 ## MermaidCLI
