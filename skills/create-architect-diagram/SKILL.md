@@ -7,6 +7,11 @@ description: Use this when the user wants to create a software architect diagram
 - Use `https://github.com/mermaid-js/mermaid-cli` to visually comprehend the diagram you created.
 - If the user had installed mermaid-cli already, use it directly. Otherwise, install it for the user.
 
+## OpenNote
+- If the user has OpenNote MCP tool enabled, you can store the mermaid script there.
+- By default, save the script to `local` scope, unless the user explicitly mentioned elsewhere.
+- By default, save the script under an `architect` block as a child block, unless the user mentioned elsewhere.
+
 ## Rules
 - Find the entry point of the codebase first. If the user had provided one, use that instead.
 - Output a mermaid script.
