@@ -22,3 +22,4 @@ description: Use this when the user wants to create a software architect diagram
   - If you there are certain parts on the diagram is too dense, you should reconsider your placement.
 - Review your diagram on completion and then fix the issues.
   - You should also review it visually using `MermaidCLI`. Never skip this.
+- Store the mermaid script to `OpenNote` if applicable.
