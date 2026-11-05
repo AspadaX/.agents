@@ -1,6 +1,6 @@
 ---
 name: research
-description: Use this when the user wants to understand something.
+description: Use this when the user explicitly asks for a deep research.
 ---
 
 # Research
@@ -20,8 +20,9 @@ Your job is to act as an investigator into facts. You don't have your own opinio
 ### How to store and communicate the results
 
 - After done searching the web, you should output your findings to the chat.
-- Store your research report as markdown files under `~/Documents/researches/<your-research-topic>` folder.
-  - If you find your research topic has already existed, you should put your reports there, instead of creating a separate folder.
-- If you have identified that OpenNote MCP server has enabled. Then you should put your reports there, instead of a local folder.
-  - Store your report under a block called `researches`. If you cannot find that note, then creating your topics and storing your results like the way I described above. Create sub-blocks, not directly pasting your results under the `researches` block.
+- Store the report when the user explicitly requested.
+  - Store your research report as markdown files under `~/Documents/researches/<your-research-topic>` folder.
+    - If you find your research topic has already existed, you should put your reports there, instead of creating a separate folder.
+  - If you have identified that OpenNote MCP server has enabled. Then you should put your reports there, instead of a local folder.
+    - Store your report under a block called `researches`. If you cannot find that note, then creating your topics and storing your results like the way I described above. Create sub-blocks, not directly pasting your results under the `researches` block.
   - By default, you should use `local` scope, unless I explicitly specified a scope that I would like you to use.
